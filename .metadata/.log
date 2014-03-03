@@ -1,0 +1,10 @@
+!SESSION 2014-03-03 00:42:36.516 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product com.android.ide.eclipse.adt.package.product -data /home/raphael/workspace/cursobasicoandroid -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2014-03-03 00:42:42.779
+!MESSAGE DDMS files not found: /home/raphael/Android/eclipse/platform-tools/adb /home/raphael/Android/eclipse/tools/hprof-conv /home/raphael/Android/eclipse/tools/traceview 
