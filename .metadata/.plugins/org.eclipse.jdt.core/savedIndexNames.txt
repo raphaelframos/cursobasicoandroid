@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/raphael/workspace/cursobasicoandroid/.metadata/.plugins/org.eclipse.jdt.core
+3531846518.index
+1481566562.index
+22800069.index
