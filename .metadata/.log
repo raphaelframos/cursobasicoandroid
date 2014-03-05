@@ -2035,3 +2035,6 @@ Java Model Exception: Java Model Status [Timed out while retrieving the attached
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1012 2014-03-05 12:55:05.286
 !MESSAGE Timed out while retrieving the attached javadoc for Log [in Log.class [in android.util [in /home/raphael/Desenvolvimento/adt-bundle-linux-x86_64-20131030/sdk/platforms/android-19/android.jar]]] 
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-05 14:15:50.761
+!MESSAGE Failed to load properties file for project 'CicloDeVidaExemplo'
