@@ -1,10 +1,10 @@
 package br.com.powell.meucarro;
 
+import android.app.ListActivity;
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
-public class TelaMenuPrincipal extends Activity {
+public class TelaMenuPrincipal extends ListActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

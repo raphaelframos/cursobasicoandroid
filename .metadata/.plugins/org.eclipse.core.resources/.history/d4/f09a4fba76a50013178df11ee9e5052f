@@ -1,0 +1,14 @@
+package br.com.powell.listasimplesexemplo;
+
+import android.app.ListActivity;
+import android.os.Bundle;
+
+public class ListaSimples extends ListActivity {
+
+	private String[] menuPrincipal = {"Opção Um", "Opção Dois", "Opção Três"};
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.tela_lista_simples);
+	}
+}
