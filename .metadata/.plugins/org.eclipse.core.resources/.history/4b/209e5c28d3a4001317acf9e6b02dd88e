@@ -1,0 +1,14 @@
+package br.com.powell.meucarro;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class TelaEntrada extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.tela_entrada);
+    }
+}

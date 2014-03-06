@@ -1,23 +1,34 @@
 package br.com.powell.meucarro;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
 
 public class TelaEntrada extends Activity {
 
-    @Override
+    private static final long TEMPO_ENTRADA = 1000;
+
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_entrada);
+        
+        carregaProximaTelaDepoisDoTempoDeEntrada();
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tela_entrada, menu);
-        return true;
-    }
-    
+	private void carregaProximaTelaDepoisDoTempoDeEntrada() {
+		new Handler().postDelayed(new Runnable() {
+			
+			@Override
+			public void run() {
+				try{
+					startActivity(new Intent(TelaEntrada.this, TelaMenuPrincipal.class));
+					finish();
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+		}, TEMPO_ENTRADA);
+	}
 }

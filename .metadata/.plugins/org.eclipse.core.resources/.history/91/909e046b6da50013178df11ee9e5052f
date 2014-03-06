@@ -1,0 +1,32 @@
+package br.com.powell.meucarro;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+
+public class TelaEntrada extends Activity {
+
+    private static final long TEMPO_ENTRADA = 1000;
+
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.tela_entrada);
+        
+        carregaProximaTelaDepoisDoTempoDeEntrada();
+    }
+
+	private void carregaProximaTelaDepoisDoTempoDeEntrada() {
+		new Handler().postDelayed(new Runnable() {
+			
+			@Override
+			public void run() {
+				try{
+					
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+		}, TEMPO_ENTRADA);
+	}
+}

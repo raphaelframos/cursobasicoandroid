@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void carregarOutraActivity()&apos; from &apos;br.com.powell.splashscreenexemplo.TelaEntrada.onCreate()&apos; to &apos;br.com.powell.splashscreenexemplo.TelaEntrada&apos;&#x0A;- Original project: &apos;SplashScreenExemplo&apos;&#x0A;- Method name: &apos;carregarOutraActivity&apos;&#x0A;- Destination type: &apos;br.com.powell.splashscreenexemplo.TelaEntrada&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;carregarOutraActivity&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;br.com.powell.splashscreenexemplo{TelaEntrada.java" name="carregarOutraActivity" replace="false" selection="432 259" stamp="1394136284689" version="1.0" visibility="2"/>
+</session>
