@@ -1,0 +1,26 @@
+package br.com.powell.adapterexemplo;
+
+import java.util.ArrayList;
+
+import br.com.powell.adapter.ExemploAdapter;
+import br.com.powell.model.Exemplo;
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+
+public class MainActivity extends ListActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		ArrayList<Exemplo> exemplos = criaExemplos();
+		ExemploAdapter adapter = new ExemploAdapter(this, exemplos);
+		setListAdapter(adapter);
+	}
+
+	private ArrayList<Exemplo> criaExemplos() {
+		ArrayList<Exemplo> exemplos = new ArrayList<Exemplo>();
+	}
+}

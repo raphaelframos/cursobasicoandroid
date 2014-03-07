@@ -1,0 +1,16 @@
+package br.com.powell.adapter;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+import br.com.powell.adapterexemplo.R;
+import br.com.powell.model.Exemplo;
+
+public class ExemploAdapter extends ArrayAdapter<Exemplo>{
+
+	public ExemploAdapter(Context context, List<Exemplo> exemplos) {
+		super(context, R.layout.adapter_exemplo, exemplos);
+	}
+
+}

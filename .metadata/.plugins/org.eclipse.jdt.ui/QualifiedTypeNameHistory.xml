@@ -8,4 +8,11 @@
 <fullyQualifiedTypeName name="android.os.Handler"/>
 <fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="br.com.powell.splashscreenexemplo.TelaSeguinte"/>
+<fullyQualifiedTypeName name="br.com.powell.splashscreenexemplo.TelaEntrada"/>
+<fullyQualifiedTypeName name="android.app.ListActivity"/>
+<fullyQualifiedTypeName name="android.widget.SimpleAdapter"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="br.com.powell.listasimplesexemplo.ListaSimples"/>
 </qualifiedTypeNameHistroy>
